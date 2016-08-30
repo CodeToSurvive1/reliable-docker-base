@@ -67,7 +67,7 @@ ENV ROOT_DIR=/root
 
 RUN git clone --depth=1 https://github.com/creationix/nvm.git $ROOT_DIR/.nvm
 
-ENV NODE_VERSION=v5.11.1
+ENV NODE_VERSION=v4.5.0
 ENV NVM_NODEJS_ORG_MIRROR=https://npm.taobao.org/mirrors/node
 
 RUN source $HOME/.nvm/nvm.sh \
