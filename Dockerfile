@@ -32,6 +32,7 @@ RUN yum install -y \
   libnotify \
   libtool \
   gcc-c++ \
+  krb5-devel \
   glib*
 
 RUN dbus-uuidgen > /etc/machine-id
